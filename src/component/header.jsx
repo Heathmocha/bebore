@@ -7,8 +7,15 @@ class Header extends Component {
         return (
             <div className="Header">
                 <img src={logo} className="Header-logo" alt="logo" />
-                <h2>Test Header</h2>
+                <h2>Bebore</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="entry">Entry</a></li>
+                    <li><a href="inventory">Inventory</a></li>
+                    <li><a href="history">History</a></li>
+                </ul>
             </div>
+
         );
     }
 }

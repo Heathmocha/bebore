@@ -1,9 +1,9 @@
 .Header {
   text-align: center;
   background-color: #222;
-  height: 150px;
+  height: 160px;
   padding: 20px;
-  color: white;
+  color: orange;
 }
 
 .Header-logo {
@@ -14,4 +14,27 @@
 @keyframes Header-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+/* Navigation List CSS */
+.Header ul {
+    lsit-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Header li {
+    display: inline-block;
+}
+
+.Header a {
+    text-decoration: none;
+    padding: .2em 1em;
+    color: orange;
+    font-weight: bold;
+
+}
+
+.Header a:hover {
+    color: #fff;
 }
