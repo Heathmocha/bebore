@@ -6,6 +6,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
+                {/* TODO - need a better logo...if at all. Would be funny to have something for myself */}
                 <img src={logo} className="Header-logo" alt="logo" />
                 <h2>Bebore</h2>
                 <ul>
